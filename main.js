@@ -1,4 +1,4 @@
-import { images } from "./counter";
+import { images } from "./counter.js";
 
 const comment = [
   {
