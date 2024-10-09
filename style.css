@@ -127,7 +127,7 @@ main {
     .bg_img_1 {
       width: 331px;
       height: 258px;
-      background: url("./image/main1.png");
+      background: url("./src/image/main1.png");
       display: flex;
       justify-content: center;
       align-items: end;
@@ -136,7 +136,7 @@ main {
     .bg_img_2 {
       width: 331px;
       height: 258px;
-      background: url("./image/main2.png");
+      background: url("./src/image/main2.png");
       display: flex;
       justify-content: center;
       align-items: end;
@@ -590,7 +590,7 @@ footer {
       margin-bottom: 41px;
     }
     .form_img {
-      background: url("./image/main2.png");
+      background: url("./src/image/main2.png");
       width: 299px;
       height: 258px;
       display: flex;
