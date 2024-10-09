@@ -1,10 +1,4 @@
-import img1 from "./image/img_quiz/1.png";
-import img2 from "./image/img_quiz/2.png";
-import img3 from "./image/img_quiz/3.png";
-import img4 from "./image/img_quiz/4.png";
-import img5 from "./image/img_quiz/5.png";
-import img6 from "./image/img_quiz/6.png";
-import img7 from "./image/img_quiz/7.png";
+import { images } from "./counter";
 
 const comment = [
   {
@@ -41,35 +35,35 @@ const comment = [
 const question = [
   {
     title: "Is the penis 8 inches or more in length?",
-    avatar: img1,
+    avatar: images.img1,
   },
   {
     title: "Have you exppirienced erectile problems or decrease in libido?",
-    avatar: img2,
+    avatar: images.img2,
   },
   {
     title:
       "Are you currently taking any medications or supplements that might affect your sexual health?",
-    avatar: img3,
+    avatar: images.img3,
   },
   {
     title:
       "Do you have any underlying health conditions, such as diabetes or hypertension?",
-    avatar: img4,
+    avatar: images.img4,
   },
   {
     title:
       "Have you ever undergone any previous treatments or surgeries for sexual enhancement or related issues?",
-    avatar: img5,
+    avatar: images.img5,
   },
   {
     title:
       "How important is it for you to have access to safe and effective medication for enhancing your sexual health?",
-    avatar: img6,
+    avatar: images.img6,
   },
   {
     title: "Do you think your wife is satisfied with the size of your penis?",
-    avatar: img7,
+    avatar: images.img7,
   },
 ];
 
