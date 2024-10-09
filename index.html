@@ -22,16 +22,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css
           </svg>
         </a>
         <ul>
-          <li><a href="">SAGN IN</a></li>
+          <li><a href="#quiz">SAGN IN</a></li>
           <li>
-            <a href="">
+            <a href="#quiz">
               <svg width="22" height="22">
                 <use href="./image/sprite.svg#icon-search"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#quiz">
               <svg width="22" height="22">
                 <use href="./image/sprite.svg#icon-basket"></use>
               </svg>
@@ -60,21 +60,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css
               </li>
             </ul>
           </div>
-          <p class="last_text">
+          <p class="last_text" id="quiz">
             In this program, you'll never pay extra for higher doses of ED
             medication. It's simple: no hidden fees for increased dosages, and
             no prescription is required.
           </p>
         </div>
         <div class="wrapper_quiz">
-          <ul>
+          <ul class="box_quiz">
             <li class="item_quiz">
-              <img
-                src="./image/image (8).png"
-                alt="men"
-                width="191"
-                height="246"
-              />
+              <div id="img_box"></div>
               <div class="wrapper_quiz2">
                 <div class="box_quiz">
                   <svg
@@ -102,15 +97,15 @@ https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css
                     />
                   </svg>
                   <svg width="582" height="72" class="blue_svg_desc">
-                    <use href="./image/sprite.svg#icon-blue"></use>
+                    <use href="./image/sprite.svg#icon-blue-desc"></use>
                   </svg>
                   <p>
                     Just answer a few quick health-related questions in under
                     two minutes, and you're good to go.
                   </p>
                 </div>
-                <div class="box_qst">
-                  <span class="number_quiz active_quiz">1</span>
+                <div class="box_qst" id="box_qst">
+                  <span class="number_quiz">1</span>
                   <span class="number_quiz">2</span>
                   <span class="number_quiz">3</span>
                   <span class="number_quiz">4</span>
@@ -118,12 +113,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css
                   <span class="number_quiz">6</span>
                   <span class="number_quiz">7</span>
                 </div>
-                <p class="text_quiz">
-                  Is the penis 8 inches or more in length?
-                </p>
+                <div id="title_box"></div>
                 <div class="box_btn">
-                  <button class="quiz_btn">Yes</button>
-                  <button class="quiz_btn">No</button>
+                  <button class="quiz_btn" id="btn_yes">Yes</button>
+                  <button class="quiz_btn" id="btn_no">No</button>
                 </div>
               </div>
             </li>
@@ -391,45 +384,75 @@ https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css
     <footer>
       <div class="container wrapper">
         <div>
-          <a href="">
+          <a href="#quiz">
             <img src="./image/logo_black.svg" alt="" />
           </a>
         </div>
         <div>
           <ul class="list-tag">
-            <li><a href="">About Men's Health</a></li>
-            <li><a href="">Newsletter</a></li>
-            <li><a href="">Customer Care</a></li>
-            <li><a href="">E-prints, Reprints</a></li>
-            <li><a href="">Advertise</a></li>
-            <li><a href="">Subscribe</a></li>
-            <li><a href="">Give a Gift</a></li>
-            <li><a href="">Manage Email Preferences</a></li>
-            <li><a href="">Other Hearst Subscriptions</a></li>
-            <li><a href="">Media Kit</a></li>
+            <li><a href="#quiz">About Men's Health</a></li>
+            <li><a href="#quiz">Newsletter</a></li>
+            <li><a href="#quiz">Customer Care</a></li>
+            <li><a href="#quiz">E-prints, Reprints</a></li>
+            <li><a href="#quiz">Advertise</a></li>
+            <li><a href="#quiz">Subscribe</a></li>
+            <li><a href="#quiz">Give a Gift</a></li>
+            <li><a href="#quiz">Manage Email Preferences</a></li>
+            <li><a href="#quiz">Other Hearst Subscriptions</a></li>
+            <li><a href="#quiz">Media Kit</a></li>
           </ul>
         </div>
         <div class="list-tag2">
-          <a href="">A Part of Hearst Digital Media</a>
-          <a href=""
+          <a href="#quiz">A Part of Hearst Digital Media</a>
+          <a href="#quiz"
             >We may earn commission from links on this page, but we only
             recommend products we back.</a
           >
-          <a href="">©2024 Hearst Magazines, Inc. All Rights Reserved.</a>
+          <a href="#quiz">©2024 Hearst Magazines, Inc. All Rights Reserved.</a>
         </div>
         <ul class="list-tag3">
-          <li><a href="">Privacy Notice</a></li>
-          <li><a href="">CA Notice at Collection</a></li>
-          <li><a href="">Your CA Privacy Rights/Shine the Light</a></li>
-          <li><a href="">DAA Industry Opt Out</a></li>
-          <li><a href="">Terms of Use</a></li>
-          <li><a href="">Site Map</a></li>
+          <li><a href="#quiz">Privacy Notice</a></li>
+          <li><a href="#quiz">CA Notice at Collection</a></li>
+          <li><a href="#quiz">Your CA Privacy Rights/Shine the Light</a></li>
+          <li><a href="#quiz">DAA Industry Opt Out</a></li>
+          <li><a href="#quiz">Terms of Use</a></li>
+          <li><a href="#quiz">Site Map</a></li>
         </ul>
         <div class="block">
-          <a href=""> Your Privacy Choices: Opt Out of Sale/Targeted Ads </a>
+          <a href="#quiz">
+            Your Privacy Choices: Opt Out of Sale/Targeted Ads
+          </a>
         </div>
       </div>
     </footer>
-    <!-- <script type="module" src="/main.js"></script> -->
+    <div class="backdrop" id="backdrop">
+      <div class="backdrop_form">
+        <h2>Congratulations!</h2>
+        <p class="title_text">You've won new program bears</p>
+        <div class="form_img"><span>$0.77/Gummy</span></div>
+        <ol class="list_qust">
+          <li>
+            <p>Click on "OK" and then continue with the delivery page</p>
+          </li>
+          <li>
+            <p id="timer">
+              Fill in the form to receive one free botle you have <span>0</span
+              ><span>5</span><span></span><span></span> minutes to <br />do it
+            </p>
+          </li>
+        </ol>
+        <form action="" class="form_modal" id="form_email">
+          <input
+            type="text"
+            placeholder="Enter Mail"
+            class="form_input"
+            id="input_email"
+            required
+          />
+          <button type="submit" class="form_btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
