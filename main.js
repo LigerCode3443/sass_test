@@ -169,20 +169,20 @@ formElem.addEventListener("submit", (e) => {
     alert("Check if the email address is correct");
     return;
   }
-  fetch("https://your-api-endpoint.com/send-email", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(value),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  //   fetch("https://your-api-endpoint.com/send-email", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(value),
+  //   })
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       console.log(data);
+  //     })
+  //     .catch((error) => {
+  //       console.error(error);
+  //     });
   imgElem.innerHTML = imgArr[0];
   titleElem.innerHTML = titleArr[0];
   modalElem.classList.remove("is_open");
